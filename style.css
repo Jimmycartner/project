@@ -1,0 +1,124 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    color: #fff;
+}
+
+body {
+    background-color: #111;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* Main Container */
+.container {
+    text-align: center;
+    padding: 2rem;
+}
+
+.profile-img {
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    margin-bottom: 1rem;
+}
+
+h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.about {
+    margin-bottom: 1rem;
+    font-size: 1rem;
+    color: #ccc;
+}
+
+/* Social Links */
+.socials {
+    margin-top: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.social-link {
+    margin: 0 0.5rem;
+    color: #1e90ff;
+    text-decoration: none;
+}
+
+.social-link:hover {
+    text-decoration: underline;
+}
+/* Resume Page Styling */
+.resume-section {
+    margin-top: 1.5rem;
+    text-align: left;
+}
+
+.resume-section h2 {
+    font-size: 1.5rem;
+    color: #1e90ff;
+    margin-bottom: 1rem;
+}
+
+.resume-item {
+    background-color: #222;
+    padding: 1rem;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+}
+
+.resume-item h3 {
+    font-size: 1.2rem;
+    margin-bottom: 0.3rem;
+    color: #f1f1f1;
+}
+
+.resume-item p {
+    margin: 0.3rem 0;
+    color: #ddd;
+}
+
+.skills {
+    list-style: none;
+    padding: 0;
+}
+
+.skills li {
+    background-color: #333;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    display: inline-block;
+    margin: 0.3rem 0.5rem 0 0;
+    color: #f1f1f1;
+}
+
+
+/* Bottom Navigation Bar */
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #333;
+    padding: 0.5rem 0;
+}
+
+.nav-item {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1rem;
+    padding: 0.5rem;
+    transition: color 0.3s ease;
+}
+
+.nav-item:hover {
+    color: #1e90ff;
+}
